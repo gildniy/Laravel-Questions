@@ -1,6 +1,6 @@
 <?php
 
-namespace DraperStudio\Questions\Answers;
+namespace Gildniy\Questions\Answers;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -21,7 +21,7 @@ class Answer extends Model
      */
     public function user()
     {
-        return $this->belongsTo(config('draperstudio.questions.user'), 'author_id');
+        return $this->belongsTo(config('gildniy.questions.user'), 'author_id');
     }
 
     /**
