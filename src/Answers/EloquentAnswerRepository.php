@@ -1,6 +1,6 @@
 <?php
 
-namespace DraperStudio\Questions\Answers;
+namespace Gildniy\Questions\Answers;
 
 /**
  * Class EloquentAnswerRepository.
