@@ -1,13 +1,13 @@
 {
-    "name": "draperstudio/laravel-questions",
+    "name": "gildniy/laravel-questions",
     "description": "Q&A for Laravel 5.",
     "require": {
         "php": ">=5.5.0",
-        "draperstudio/laravel-database": "~1.0"
+        "gildniy/laravel-database": "~1.0"
     },
     "autoload": {
         "psr-4": {
-            "DraperStudio\\Questions\\": "src/"
+            "Gildniy\\Questions\\": "src/"
         }
     }
 }
