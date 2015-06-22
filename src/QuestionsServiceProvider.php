@@ -1,11 +1,11 @@
 <?php
 
-namespace DraperStudio\Questions;
+namespace Gildniy\Questions;
 
-use DraperStudio\Questions\Answers\AnswerRepository;
-use DraperStudio\Questions\Answers\EloquentAnswerRepository;
-use DraperStudio\Questions\Questions\EloquentQuestionRepository;
-use DraperStudio\Questions\Questions\QuestionRepository;
+use Gildniy\Questions\Answers\AnswerRepository;
+use Gildniy\Questions\Answers\EloquentAnswerRepository;
+use Gildniy\Questions\Questions\EloquentQuestionRepository;
+use Gildniy\Questions\Questions\QuestionRepository;
 use Illuminate\Support\ServiceProvider;
 
 class QuestionsServiceProvider extends ServiceProvider
@@ -16,7 +16,7 @@ class QuestionsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/questions.php' => config_path('draperstudio.questions.php'),
+            __DIR__.'/../config/questions.php' => config_path('gildniy.questions.php'),
         ], 'config');
 
         $this->publishes([
