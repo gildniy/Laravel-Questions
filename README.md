@@ -6,7 +6,7 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "draperstudio/laravel-questions": "~1.0"
+    "gildniy/laravel-questions": "~1.0"
 }
 ```
 
@@ -14,7 +14,7 @@ And then include the service provider within `app/config/app.php`.
 
 ```php
 'providers' => [
-    'DraperStudio\Questions\QuestionsServiceProvider'
+    'Gildniy\Questions\QuestionsServiceProvider'
 ];
 ```
 
